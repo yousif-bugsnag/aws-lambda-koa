@@ -1,0 +1,32 @@
+{
+  "name": "aws-lambda-koa-barebone",
+  "version": "1.0.0",
+  "description": "Koa barebone to run on aws lambda and API Gateway",
+  "main": "index.js",
+  "scripts": {
+    "test": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/awsmag/aws-lambda-koa-barebone.git"
+  },
+  "keywords": [],
+  "author": "Simranjeet Singh",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/awsmag/aws-lambda-koa-barebone/issues"
+  },
+  "homepage": "https://github.com/awsmag/aws-lambda-koa-barebone#readme",
+  "dependencies": {
+    "aws-serverless-express": "^3.4.0",
+    "koa": "^2.13.1",
+    "koa-mw-logger": "^1.4.9"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-eslint": "^6.0.0",
+    "gulp-shell": "^0.8.0",
+    "mocha": "^9.0.3",
+    "nyc": "^15.1.0"
+  }
+}
